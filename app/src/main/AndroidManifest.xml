@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.instantdabba">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".dabbachanpass"
+            android:label="Change Password"></activity>
+        <activity android:name=".dabbaedit" />
+        <activity android:name=".userchangepass"
+            android:label="Change Password"/>
+        <activity android:name=".useredit"
+            android:label="Edit Profile"/>
+        <activity android:name=".Dabbaviewprof"
+            android:label="View Profile"/>
+        <activity android:name=".userprof_view"
+            android:label="Profile"/>
+        <activity android:name=".Dabbaloc"
+            android:label="location"/>
+        <activity
+            android:name=".UserInfo"
+            android:label="Customer Details" />
+        <activity
+            android:name=".UserCart"
+            android:label="status" />
+        <activity android:name=".DabbawalaDash" />
+        <activity
+            android:name=".userDash"
+            android:label="Dashboard" />
+        <activity android:name=".dabbawalaSignup"
+            android:label="Sign Up"/>
+        <activity android:name=".location"
+            android:label="location"/>
+        <activity android:name=".usersignup"
+            android:label="Sign Up"/>
+        <activity
+            android:name=".DabbawalaLog"
+            android:label="Log in" />
+        <activity android:name=".userLogin"
+            android:label="Log in"/>
+        <activity android:name=".welcome"
+            android:label="welcome"/>
+        <activity android:name="com.soundcloud.android.crop.CropImageActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

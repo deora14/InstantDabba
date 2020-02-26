@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:background="@drawable/gradient_animation_list"
+    android:orientation="vertical"
+    android:id="@+id/linearlayout">
+    <android.support.v7.widget.CardView
+        android:background="@drawable/shape"
+        android:padding="10dp"
+        android:id="@+id/android_card_view_example"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <TextView
+        android:textSize="30dp"
+        android:textStyle="italic"
+        android:text="userid"
+        android:id="@+id/userid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:layout_marginTop="50dp"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="Quantity :"
+            android:textSize="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/quantity"
+            android:textSize="20dp"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="100dp"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="Price       :"
+            android:textSize="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/price"
+            android:textSize="20dp"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:text="₹"
+            android:textSize="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>

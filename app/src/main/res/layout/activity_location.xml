@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/loc"
+    tools:context=".location">
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_marginHorizontal="100dp"
+        android:layout_marginVertical="50dp"
+        android:src="@drawable/map"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Get Location"
+        android:background="@drawable/shape"
+        android:id="@+id/btnGPSShowLocation"
+        android:layout_marginBottom="53dp"
+        android:layout_alignParentBottom="true"
+        android:textColor="#008F11"
+        android:layout_centerInParent="true" />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:id="@+id/btnShowAddress"
+        android:layout_alignParentBottom="true" />
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:id="@+id/tvAddress"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="134dp"
+        android:layout_alignParentEnd="true" />
+
+
+</RelativeLayout>

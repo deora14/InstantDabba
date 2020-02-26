@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="@drawable/dabba"
+    tools:context=".Dabbaviewprof">
+    <RelativeLayout
+        android:id="@+id/lo"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_centerInParent="true"
+            android:id="@+id/l"
+            android:src="@drawable/logo"
+            android:layout_width="200dp"
+            android:layout_height="100dp" />
+        <TextView
+            android:layout_below="@+id/logo"
+            android:textStyle="italic"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:text = "Instant  डब्बा"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp" />
+    </RelativeLayout>
+    <TextView
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:drawableRight="@drawable/ic_assignment_ind_black_24dp"
+        android:paddingLeft="10dp"
+        android:id="@+id/ownername"
+        android:textSize="25dp"
+        android:hint="ownername"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+    <TextView
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:drawableRight="@drawable/ic_assignment_ind_black_24dp"
+        android:paddingLeft="10dp"
+        android:id="@+id/username"
+        android:textSize="25dp"
+        android:hint="Dabba Service Name"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+    <TextView
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:drawableRight="@drawable/ic_phone_black_24dp"
+        android:paddingLeft="10dp"
+        android:id="@+id/mobile"
+        android:textSize="25dp"
+        android:hint="mobile"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+    <TextView
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:drawableRight="@drawable/ic_mail_outline_black_24dp"
+        android:paddingLeft="10dp"
+        android:id="@+id/email"
+        android:textSize="25dp"
+        android:hint="email"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+
+    <TextView
+        android:inputType="text"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:drawableRight="@drawable/ic_assignment_ind_black_24dp"
+        android:paddingLeft="10dp"
+        android:id="@+id/include"
+        android:textSize="25dp"
+        android:hint="Dabba containt"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+    <TextView
+        android:inputType="number"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:drawableRight="@drawable/ic_assignment_ind_black_24dp"
+        android:paddingLeft="10dp"
+        android:id="@+id/price"
+        android:textSize="25dp"
+        android:hint="price"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+
+    <Button android:id="@+id/SignUp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textSize="30sp"
+        android:text="Back"
+        android:gravity="center"
+        android:textColor="#008F11"
+        android:background="@drawable/shape"
+        android:layout_width="match_parent"
+        android:layout_height="70dp" />
+</LinearLayout>

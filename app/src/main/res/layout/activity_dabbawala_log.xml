@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="@drawable/dabba"
+    tools:context=".">
+    <RelativeLayout
+        android:id="@+id/lo"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:src="@drawable/logo"
+            android:layout_centerInParent="true"
+            android:id="@+id/logo"
+            android:layout_width="200dp"
+            android:layout_height="100dp" />
+        <TextView
+            android:textStyle="italic"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:text = "Instant  डब्बा"
+            android:padding="10dp"
+            android:layout_below="@id/logo"
+            android:layout_width="match_parent"
+            android:layout_height="50dp" />
+    </RelativeLayout>
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:textColorHint="#FFFFFF"
+        android:layout_height="wrap_content">
+    <EditText
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:id="@+id/username"
+        android:layout_margin="20dp"
+        android:textSize="25dp"
+        android:hint="username"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:textColorHint="#FFFFFF"
+        android:layout_height="wrap_content">
+    <EditText
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:id="@+id/pass"
+        android:layout_margin="20dp"
+        android:textSize="25dp"
+        android:inputType="textPassword"
+        android:hint="password"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+    </android.support.design.widget.TextInputLayout>
+    <Button android:id="@+id/Login"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textSize="30sp"
+        android:text="LogIn"
+        android:gravity="center"
+        android:textColor="#008F11"
+        android:background="@drawable/shape"
+        android:layout_width="match_parent"
+        android:layout_height="70dp" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+
+    <TextView android:id="@+id/SignUp"
+        android:textSize="15sp"
+        android:textColor="#FFFFFF"
+        android:text="             Click here \n               REGISTER"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp" />
+    <TextView android:id="@+id/userlog"
+        android:textSize="15sp"
+        android:layout_marginLeft="100dp"
+        android:textColor="#FFFFFF"
+        android:text="             Click here \n               Login as user"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp" />
+    </LinearLayout>
+
+</LinearLayout>

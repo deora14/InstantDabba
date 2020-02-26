@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dabba"
+    tools:context=".welcome">
+    <RelativeLayout
+        android:id="@+id/lo"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_centerInParent="true"
+            android:id="@+id/logo"
+            android:src="@drawable/logo"
+            android:layout_width="200dp"
+            android:layout_height="100dp" />
+        <TextView
+            android:textStyle="italic"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:text = "Instant  डब्बा"
+            android:padding="10dp"
+            android:layout_below="@id/logo"
+            android:layout_width="match_parent"
+            android:layout_height="50dp" />
+    </RelativeLayout>
+    <Button android:id="@+id/user"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textSize="30sp"
+        android:text="User"
+        android:gravity="center"
+        android:textColor="#008F11"
+        android:background="@drawable/shape"
+        android:layout_marginTop="30sp"
+        android:layout_below="@id/lo"
+        android:layout_width="match_parent"
+        android:layout_height="70dp" />
+    <Button
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginVertical="40dp"
+        android:textSize="30sp"
+        android:textColor="#008F11"
+        android:text="Dabbawala"
+        android:background="@drawable/shape"
+        android:gravity="center"
+        android:id="@+id/dabbawala"
+        android:layout_marginTop="30sp"
+        android:layout_below="@id/user"
+        android:layout_width="match_parent"
+        android:layout_height="70dp" />
+</RelativeLayout>

@@ -1,0 +1,6 @@
+<root>
+    <item
+        name='android.support.design.widget.TabLayout void setOnTabSelectedListener(android.support.design.widget.TabLayout.BaseOnTabSelectedListener)'>
+        <annotation name='org.jetbrains.annotations.NonBlocking' />
+    </item>
+</root>

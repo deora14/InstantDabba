@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "401669224942",
+    "firebase_url": "https://instantdabba.firebaseio.com",
+    "project_id": "instantdabba",
+    "storage_bucket": "instantdabba.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:401669224942:android:5f87d433a84e7e79",
+        "android_client_info": {
+          "package_name": "com.example.instantdabba"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "401669224942-jpmdn7og6ajioqbgvqlpf5vgntu22mds.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.instantdabba",
+            "certificate_hash": "bb06617b395b40b1c6482ac182e5e4e69df8b968"
+          }
+        },
+        {
+          "client_id": "401669224942-5u02kqlkbp0qolie1aqdfdmi3u4p793r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAktPg2xH-xzow6jpolWqW_aviIJJK9e9E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "401669224942-5u02kqlkbp0qolie1aqdfdmi3u4p793r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
